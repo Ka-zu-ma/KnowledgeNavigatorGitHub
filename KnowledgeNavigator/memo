@@ -1,0 +1,15 @@
+csv  NSBundle
+
+NSXMLParser
+
+オフラインのときのためにTop画像をキャッシュ
+文字列つなげる
+
+キャッシュディレクトリの下にTop画像ディレクトリ、TableViewIconディレクトリ
+
+ファイルにNSDataの内容を書き出す -writeToFile:atomically:
+
+launch Image　適切な画像サイズなし
+
+サーバー→DB→キャッシュ→表示
+
